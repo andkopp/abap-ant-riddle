@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCB_ANT</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Base Agent Ameise</DESCRIPT>
+    <CATEGORY>11</CATEGORY>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSABSTRCT>X</CLSABSTRCT>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>CREATE_PERSISTENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeuge neues persistentes Objekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>CREATE_TRANSIENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeuge transientes Objekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>CURRENT_SPECIAL_OBJECT_INFO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktuelle Klassenspezifische Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>MAP_ATT_INFO_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Query: Mapping-Metadaten für Attribute</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>MAP_EXTRACT_IDENTIFIER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Extrahiert OID aus DB-Daten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>MAP_GET_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>liest persistente Attribute aus Objekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>MAP_INITIALIZE_METADATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Initialisiert Metadatentabelle für Attribute</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>MAP_LOAD_FROM_DATABASE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>liest anhand eines Filters identifizierte Objektdaten von DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>MAP_LOAD_FROM_DATABASE_GUID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>liest über OID identifizierte Objektdaten von DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>MAP_MERGE_IDENTIFIER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt DB-Daten OID zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>MAP_SAVE_TO_DATABASE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>speichert Objektdaten auf DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>MAP_SET_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>setzt persistente Attribute eines Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>PM_CHECK_AND_SET_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft und setzt persistente Attribute</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>PM_CREATE_REPRESENTANT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeuge neues Hüllenobjekt und Verwaltungseintrag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>PM_DELETE_PERSISTENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Löscht persistentes Objekt von DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>PM_LOAD_AND_SET_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lädt und setzt persistente Attribute</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>SPECIAL_OBJECT_INFO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klassenspezifische Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>SPECIAL_OID_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klassenspezifisch: Suchtabelle OIDs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_DB_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeilentyp Persistente Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_DB_DATA_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Persistente Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_DB_DELETE_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Identifikatoren zum Löschen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_OBJECT_REF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ eines verwalteten Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_OBJECT_REF_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Objektreferenz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_OID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ des generischen Objektidentifikators</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_OID_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Objektidentifikator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_SPECIAL_OBJECT_INFO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeilentyp Klassenspez. Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_SPECIAL_OBJECT_INFO_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Klassenspez. Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_SPECIAL_OID_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Suchtabelle OIDs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_ANT</CLSNAME>
+     <CMPNAME>TYP_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ des Typidentifikators</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
